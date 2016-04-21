@@ -59,7 +59,14 @@ h2.headings {
 	color: #4aaaa5;
 }
 
-.nav-text a {
+
+
+li {
+	display: inline;
+	color: grey;
+}
+
+.nav-link {
 	color: grey;
 	text-decoration: none;
 }
@@ -77,23 +84,6 @@ h2.headings {
 
 
 /* End Headings & Text */
-
-/* Footer */
-
-footer {
-	background: #666666;
-	clear: both;
-	height: 80px;
-}
-
-#footer-text {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: white;
-	text-align: center;
-	padding-top: 30px;
-}
-
-/* End Footer */
 
 /* Other Layout */
 
@@ -147,6 +137,22 @@ header {
 }
 /* End Other Layout */
 
+/* Footer */
+
+footer {
+	background: #666666;
+	clear: both;
+	height: 80px;
+}
+
+#footer-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* End Footer */
 
 /* Sticky Footer */
 
