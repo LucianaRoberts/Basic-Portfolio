@@ -1,3 +1,5 @@
+/* Icons */
+
 .icons {
 	height: 60px;
 	width: 60px;
@@ -10,11 +12,18 @@
 	margin-left: 2px;
 }
 
+/* End Icons */
+
+/* Headings & Text */
+
 .my-name {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 32px;
 	color: white;
 	background: #4aaaa5;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 h2.headings {
@@ -22,11 +31,59 @@ h2.headings {
 	font-size: 32px;
 }
 
-footer {
-	background: #666666;
+.teal-words {
+	color: #4aaaa5;
+}
+
+.nav-text a {
+	color: grey;
+	text-decoration: none;
+}
+
+.main-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	line-height: 150%;
 }
 
 h6 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #000000;
+	color: white;
 }
+
+/* End Headings & Text */
+
+/* Footer */
+
+footer {
+	background: #666666;
+}
+
+/* End Footer */
+
+/* Other Layout */
+
+.profile-pic {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.main-section {
+	width: 650px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+body {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.connect-section {
+	max-width: 270px;
+	border: solid 1px grey;
+}
+
+/* End Other Layout */
