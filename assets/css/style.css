@@ -24,11 +24,19 @@
 	display: inline-block;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h2.headings {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 32px;
+	padding-top: 10px;
+}
+
+#connect-heading {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
 }
 
 .teal-words {
@@ -40,6 +48,11 @@ h2.headings {
 	text-decoration: none;
 }
 
+.nav-text {
+	padding-top: 20px;
+	float: right;
+}
+
 .main-text {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: grey;
@@ -49,6 +62,7 @@ h2.headings {
 h6 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
+	text-align: center;
 }
 
 /* End Headings & Text */
@@ -57,11 +71,17 @@ h6 {
 
 footer {
 	background: #666666;
+	clear: both;
 }
 
 /* End Footer */
 
 /* Other Layout */
+
+body {
+	box-sizing: border-box;
+	background: url('../images/concrete_seamless.png');
+}
 
 .profile-pic {
 	float: left;
@@ -73,17 +93,38 @@ footer {
 	width: 650px;
 	padding-left: 20px;
 	padding-right: 20px;
+	border: 1px grey solid;
+	float: left;
+	clear: right;
+	background: white;
 }
 
-body {
+.content-area {
 	max-width: 960px;
+	min-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .connect-section {
+	float: right;
 	max-width: 270px;
 	border: solid 1px grey;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: white;
 }
 
+header {
+	background: white;
+}
+
+.header-content {
+	max-width: 960px;
+	min-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
 /* End Other Layout */
