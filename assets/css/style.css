@@ -185,11 +185,11 @@ header {
 
 .row1 {
 	margin-top: 5px;
-	margin-bottom: 34px;
+	margin-bottom: 40px;
 }
 
 .row2 {
-	margin-bottom: 34px;
+	margin-bottom: 40px;
 }
 
 .row3 {
@@ -197,6 +197,48 @@ header {
 }
 
 /* End Portfolio Page */
+
+/* Contact Page */
+
+label {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+	margin-top: 15px;
+}
+
+#name {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#email {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+	height: 205px;
+	margin-top: 15px;
+}
+
+button {
+	background: #4aaaa5;
+	border: 0px;
+	height: 45px;
+	width: 120px;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+	margin-top: 23px;
+}
+
+/* End Contact Page */
+
 
 /* Footer */
 
@@ -210,7 +252,7 @@ footer {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 40px;
 	font-size: 12px;
 }
 
@@ -218,22 +260,26 @@ footer {
 
 /* Sticky Footer */
 
-html, body {height: 100%;}
+html, body {
+	height: 100%;
+}
  
-#wrap {min-height: 100%;}
+#wrap {
+	min-height: 100%;
+}
  
 #main {
-	overflow:auto;
+	overflow: auto;
     padding-bottom: 150px;
 }  /* must be same height as the footer */
  
 #footer {
 	position: relative;
-    margin-top: -70px; /* negative value of footer height */
-    height: 70px;
+    margin-top: -90px; /* negative value of footer height */
+    height: 90px;
     min-width: 960px;
     clear: both;
-    border-top: 8px solid #4aaaa5;
+    border-top: 10px solid #4aaaa5;
 }
 
  
