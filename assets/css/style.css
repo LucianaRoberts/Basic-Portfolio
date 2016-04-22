@@ -149,7 +149,7 @@ footer {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 25px;
 }
 
 /* End Footer */
@@ -170,7 +170,8 @@ html, body {height: 100%;}
     margin-top: -70px; /* negative value of footer height */
     height: 70px;
     min-width: 960px;
-    clear:both;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
 }
 
  
