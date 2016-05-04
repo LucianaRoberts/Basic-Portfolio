@@ -1,23 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
 /* Icons & Connect Section*/
 
 .icons {
-	height: 60px;
-	width: 60px;
+	height: 67px;
+	width: 67px;
+}
+
+.icons:first-of-type {
+	margin-left: -1px;
 }
 
 .icons-stack {
-	height: 55px;
-	width: 55px;
+	height: 62px;
+	width: 62px;
 	margin-bottom: 2px;
 	margin-left: 2px;
 }
 
 .connect-section {
+	box-sizing: border-box;
 	float: right;
-	max-width: 270px;
+	width: 270px;
 	border: solid 1px grey;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 31px;
+	padding-right: 31px;
 	padding-bottom: 20px;
 	background: white;
 }
@@ -58,8 +67,6 @@ h2.headings {
 .teal-words {
 	color: #4aaaa5;
 }
-
-
 
 li {
 	display: inline;
@@ -272,18 +279,16 @@ html, body {
 
 #main {
 	overflow: auto;
-    padding-bottom: 150px;
+	padding-bottom: 150px;
 }  /* must be same height as the footer */
 
 #footer {
 	position: relative;
     margin-top: -90px; /* negative value of footer height */
     height: 90px;
-    min-width: 960px;
     clear: both;
     border-top: 10px solid #4aaaa5;
 }
-
 
 /* Opera Fix */
 body:before {
@@ -295,3 +300,47 @@ body:before {
 }
 
 /* End Sticky Footer*/
+
+/* Media Queries */
+	/* The code below means applies at up to 980px */
+    @media only screen and (max-width : 980px) {
+			.header-content {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.main-section {
+				max-width: 415px;
+				min-width: 415px;
+			}
+			.content-area {
+				max-width: 725px;
+				min-width: 725px;
+			}
+			.connect-section {
+				float: right;
+				min-width: 270px;
+				max-width: 270px;
+				border: solid 1px grey;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-bottom: 20px;
+				background: white;
+			}
+			.profile-pic {
+				width: 347px;
+				height: 250px;
+				float: left;
+				margin-right: 20px;
+				margin-bottom: 20px;
+			}
+    }
+	/* The code below means applies at up to 768px */
+    @media only screen and (max-width : 768px) {
+
+    }
+	/* The code below means applies at up to 640px */
+    @media only screen and (max-width : 640px) {
+
+    }
+
+/* End Media Queries */
